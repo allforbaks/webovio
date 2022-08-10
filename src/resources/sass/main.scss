@@ -1,3 +1,17 @@
-h1 {
-    font-style: italic;
+/* vars */
+@import 'base/vars';
+
+/* reset */
+@import 'base/reset';
+
+/* Blocks */
+@import 'block/header';
+
+.container {
+    max-width: $max_width;
+    margin: 0 auto;
+}
+
+body {
+    background-color: $background_color;
 }
