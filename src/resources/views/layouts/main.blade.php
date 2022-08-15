@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="header__container">
             <div class="nav">
                 <div class="logo">
                     <a href="/"><img src="/img/header/logo.svg" alt="logo"></a>
@@ -36,9 +36,12 @@
             </div>
         </div>
     </header>
-    
-    @yield('content')
-    
+
+    <main>
+        @yield('content')
+    </main>
+
     <footer>
     </footer>
+    
 </body>

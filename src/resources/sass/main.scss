@@ -6,12 +6,20 @@
 
 /* Blocks */
 @import 'block/header';
+@import 'block/client';
+@import 'block/services';
 
-.container {
+[class*="__container"] {
     max-width: $max_width;
     margin: 0 auto;
 }
 
 body {
     background-color: $background_color;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 1 auto;
 }

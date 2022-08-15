@@ -4,23 +4,15 @@ header {
     min-height: 811px;
 }
 
-.container {
-    position: absolute;
-}
-
 /* navigation */
 .nav {
-    width: $max_width;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
+    margin-top: 24px;
 }
 
 .menu {
-    position: relative;
-    top: 27px;
-    right: 165px;
     ul {
         display: flex;
         flex-direction: row;
@@ -34,17 +26,16 @@ header {
     font-size: 20px;
     transition: all 0.3s ease 0s;
     &:hover {
-        border-bottom: 2px solid #fff;
+        border-bottom: 2px solid #FFD723;
+        color: #FFD723;
     }
 }
 
 /* Logo */
 .logo {
-    position: relative;
     display: flex;
     align-items: center;
-    left: 164px;
-    top: 24px;
+
     span {
         color: #fff;
         font-size: 40px;
@@ -57,10 +48,11 @@ header {
 
 /* Header Content */
 .header_container {
-    margin: 188px 0 0 166px;
+    margin-top: 131px;
     position: absolute;
-    min-width: 616px;
+    max-width: 616px;
     color: #fff;
+
     span {
         font-size: 14px;
         color: #fff;
