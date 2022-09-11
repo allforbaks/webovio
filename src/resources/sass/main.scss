@@ -4,11 +4,14 @@
 /* reset */
 @import 'base/reset';
 
+/* mixines */
+@import 'base/mixines';
+
 /* Blocks */
 @import 'block/header';
 @import 'block/client';
 @import 'block/services';
-@import 'block/footer.scss';
+@import 'block/footer';
 
 [class*="__container"] {
     max-width: $max_width;
@@ -23,4 +26,16 @@ body {
 
 main {
     flex: 1 1 auto;
+}
+
+.temp-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #B6C197;
+}
+
+.line {
+    max-width: $max_width;
+    height: 1.5px;
 }

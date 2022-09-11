@@ -16,8 +16,8 @@
         <div class="header__container">
             <div class="nav">
                 <div class="logo">
-                    <a href="/"><img src="/img/header/logo.svg" alt="logo"></a>
-                    <a href="/"><span>webovio.</span></a>
+                    <a href="/" ><img src="/img/header/logo.svg" alt="logo" class="header-logo-icon"></a>
+                    <a href="/">webovio.</a>
                 </div>
                 <nav class='menu'>
                     <ul>
@@ -47,77 +47,79 @@
                 <h1>Let’s make something amazing together.</h1>
                 <a href="#" class="link">>  LET'S GET STARTED</a>
             </div>
-            <div class="company-info">
-                <div class="phone">
-                    <h5>Phone</h5>
-                    <span>+32 50 31 28 32</span>
+            <div class="footer__container">
+                <div class="company-info">
+                    <div class="phone">
+                        <h5 class="temp-text">Phone</h5>
+                        <span class="company-info-item">+32 50 31 28 32</span>
+                    </div>
+                    <div class="address">
+                        <h5 class="temp-text">Address</h5>
+                        <span class="company-info-item">491 Merlin Crest Suite 963</span>
+                    </div>
                 </div>
-                <div class="address">
-                    <h5>Address</h5>
-                    <span>491 Merlin Crest Suite 963</span>
-                </div>
-            </div>
-            <div class="line"></div>
-            <div class="footer-navigation">
-                <div class="nav-wrap">
-                    <div class="nav-services">
-                        <nav class="foo-menu">
-                            <h4>Services</h4>
-                            <ul>
-                                <li class="foo-nav-item">Strategy Design</li>
-                                <li class="foo-nav-item">Product Design</li>
-                                <li class="foo-nav-item">Content Strategy</li>
-                                <li class="foo-nav-item">Brand Strategy</li>
-                                <li class="foo-nav-item">Development </li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="nav-help">
-                        <nav class="foo-menu">
-                            <h4>Help And Advice</h4>
-                            <ul>
-                                <li class="foo-nav-item">How it works</li>
-                                <li class="foo-nav-item">Contact Support</li>
-                                <li class="foo-nav-item">Privacy Policy</li>
-                                <li class="foo-nav-item">FAQ</li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="nav-company">
-                        <nav class="foo-menu">
-                            <h4>Company</h4>
-                            <ul>
-                                <li class="foo-nav-item">About</li>
-                                <li class="foo-nav-item">Blog</li>
-                                <li class="foo-nav-item">Contact</li>
-                                <li class="foo-nav-item">Jobs</li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="get-in-touch">
-                        <h4>Get in Touch</h4>
-                        <p>Feel free to get in touch with us vai email</p>
-                        <span class="email">info.webovio@gmail.com</span>
-                        <div class="social">
-                            <ul>
-                                <li class="social-item"><img src="/img/social/facebook.svg" alt="Facebook" class="social-icon"></li>
-                                <li class="social-item"><img src="" alt="Twitter" class="social-icon"></li>
-                                <li class="social-item"><img src="" alt="Google+" class="social-icon"></li>
-                                <li class="social-item"><img src="" alt="Linkedin" class="social-icon"></li>
-                            </ul>
+                <div class="line footer-line"></div>
+                <div class="footer-navigation">
+                    <div class="nav-wrap">
+                        <div class="nav-services">
+                            <nav class="foo-menu">
+                                <h4>Services</h4>
+                                <ul>
+                                    <li class="foo-nav-item temp-text">Strategy Design</li>
+                                    <li class="foo-nav-item temp-text">Product Design</li>
+                                    <li class="foo-nav-item temp-text">Content Strategy</li>
+                                    <li class="foo-nav-item temp-text">Brand Strategy</li>
+                                    <li class="foo-nav-item temp-text">Development </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="nav-help">
+                            <nav class="foo-menu">
+                                <h4>Help And Advice</h4>
+                                <ul>
+                                    <li class="foo-nav-item temp-text">How it works</li>
+                                    <li class="foo-nav-item temp-text">Contact Support</li>
+                                    <li class="foo-nav-item temp-text">Privacy Policy</li>
+                                    <li class="foo-nav-item temp-text">FAQ</li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="nav-company">
+                            <nav class="foo-menu">
+                                <h4>Company</h4>
+                                <ul>
+                                    <li class="foo-nav-item temp-text">About</li>
+                                    <li class="foo-nav-item temp-text">Blog</li>
+                                    <li class="foo-nav-item temp-text">Contact</li>
+                                    <li class="foo-nav-item temp-text">Jobs</li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="get-in-touch">
+                            <h4>Get in Touch</h4>
+                            <p class="temp-text">Feel free to get in touch with us vai email</p>
+                            <span class="email">info.webovio@gmail.com</span>
+                            <div class="social">
+                                <ul>
+                                    <li class="social-item"><a href="https://www.facebook.com/"><img src="/img/social/facebook.png" alt="Facebook" class="social-icon"></a></li>
+                                    <li class="social-item"><a href="https://twitter.com"><img src="/img/social/twitter.png" alt="Twitter" class="social-icon"></a></li>
+                                    <li class="social-item soc-active"><a href="https://google.com"><img src="/img/social/google+.png" alt="Google+" class="social-icon"></a></li>
+                                    <li class="social-item"><a href="https://ua.linkedin.com/"><img src="/img/social/linkedin.png" alt="Linkedin" class="social-icon"></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="footer-logo">
-                <div class="logo">
-                    <a href="/"><img src="/img/header/logo.svg" alt="logo"></a>
-                    <a href="/"><span>webovio.</span></a>
+                <div class="line logo-line"></div>
+                <div class="footer-logo">
+                    <div class="logo">
+                        <a href="/"><img src="/img/header/logo.svg" alt="logo" class="footer-logo-icon"></a>
+                        <a href="/" class="name">webovio.</a>
+                    </div>
+                    <span class="copyright">© 2020@webovio. All Rights Reserved.</span>
                 </div>
-                <span>© 2020@webovio. All Rights Reserved.</span>
             </div>
         </div>
-
     </footer>
     
 </body>

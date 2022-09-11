@@ -102,8 +102,5 @@
 }
 
 .line {
-    margin: 150px auto 150px auto;
-    max-width: $max_width;
-    height: 1px;
-    background-color: rgba(33, 56, 66, 0.0955529);
+    @include line (150px, 150px, rgba(33, 56, 66, 0.0955529));
 }

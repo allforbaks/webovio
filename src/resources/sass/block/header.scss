@@ -36,14 +36,15 @@ header {
     display: flex;
     align-items: center;
 
-    span {
+    a {
         color: #fff;
         font-size: 40px;
     }
-    a:nth-child(1) {   
-        width: 55px;
-        height: 35px;
-    }
+}
+
+.header-logo-icon {
+    width: 55px;
+    height: 35px;
 }
 
 /* Header Content */

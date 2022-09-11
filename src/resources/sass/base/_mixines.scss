@@ -1,0 +1,4 @@
+@mixin line ($margin-top, $margin-bottom, $color: rgba(33, 56, 66, 0.0955529)) {
+    margin: $margin-top auto $margin-bottom auto;
+    background-color: $color;
+}
