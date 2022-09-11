@@ -8,6 +8,7 @@
 @import 'block/header';
 @import 'block/client';
 @import 'block/services';
+@import 'block/footer.scss';
 
 [class*="__container"] {
     max-width: $max_width;
